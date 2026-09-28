@@ -1,5 +1,7 @@
 # Tab5 Mini PC
 
+<img src="https://github.com/jobitjoseph/Getting-Started-with-M5Stack-Tab5-ESP32-P4-Touchscreen-Development-Board/blob/cc4c9315997ab370b4a0101d43e6844f70cad542/M5Stack-TAB5.jpg" width="" alt="alt_text" title="image_tooltip">
+
 A small touchscreen "desktop" for the [M5Stack Tab5](https://docs.m5stack.com/en/core/Tab5), written as a single Arduino sketch. It boots into a home screen with a status bar and a grid of apps, and each app exercises one piece of the Tab5's hardware: the camera, the two microphones, the speaker, Wi-Fi and the RTC.
 
 It started as a tutorial project, so the code is deliberately plain. There's no LVGL and no UI framework. Everything is drawn with M5GFX primitives, and each screen is a single header file you can read top to bottom.
